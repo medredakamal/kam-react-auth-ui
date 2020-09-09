@@ -1,2 +1,2 @@
-# login-signup-react-ui
-Created with CodeSandbox
+Auth React UI
+by Mohammed Kamal

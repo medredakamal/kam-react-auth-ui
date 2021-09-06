@@ -1,11 +1,12 @@
 {
-  "name": "login-signup-ui-with-react",
+  "name": "kam-react-auth-ui",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "bootstrap": "4.5.2",
+    "@popperjs/core": "2.10.1",
+    "bootstrap": "5.1.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-router-dom": "5.2.0",

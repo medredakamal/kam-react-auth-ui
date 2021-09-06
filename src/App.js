@@ -1,6 +1,4 @@
 import React from "react";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "./styles.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Login from "./components/login.component";
@@ -17,7 +15,18 @@ function App() {
             <Link className="navbar-brand" to={"/sign-in"}>
               Home
             </Link>
-            <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#nav-menu"
+              aria-controls="nav-menu"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="nav-menu">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
                   <Link className="nav-link" to={"/sign-in"}>
